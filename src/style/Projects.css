@@ -1,0 +1,13 @@
+.projectsHeader {
+  margin: auto;
+  width: 635px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 65px 10px;
+}
+
+.thin {
+  font-weight: 300;
+}
