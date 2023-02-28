@@ -1,0 +1,57 @@
+/* Info Wrapper */
+
+.info--wrapper {
+  position: absolute;
+  top: 687px;
+  left: 756px;
+}
+
+/* Info Container */
+
+.info--container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background: #FF9154;
+  border-radius: 15px;
+  padding: 25px 15px;
+}
+
+/* Info Text */
+
+.info--text {
+  text-align: left;
+  color: #fff;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  margin-top: 72px;
+}
+
+.info--text h1 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.info--text p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Info Row */
+
+.info--row {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.info--row p {
+  color: #fff;
+}
+
+.info--row svg{
+  font-size: 20px;
+}

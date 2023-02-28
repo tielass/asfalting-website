@@ -1,0 +1,88 @@
+/* Form Wrapper */
+
+.form-wrapper {
+  background: #F4F4F4;
+  border-radius: 20px;
+  width: 700px;
+  height: 800px;
+  margin: 100px 150px;
+}
+
+.form--container {
+  display: flex;
+  justify-content: center;
+}
+
+.form--controll {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+
+}
+
+.form--controll h1 {
+  padding: 0;
+  margin: 25px auto;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FF5A00
+}
+
+.form--controll p {
+  padding: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #7A7A7A;
+}
+
+form .form--input {
+  border: none;
+  background: #E9E9E9;
+  border-radius: 6px;
+  height: 64px;
+  color: #7A7A7A;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+form .form--input:focus {
+  outline: none;
+  background-color: #d5d5d5;
+}
+
+form .form--input::placeholder {
+  align-items: center;
+  padding-left: 10px;
+}
+
+form textarea {
+  resize: none;
+  border: none;
+  background: #E9E9E9;
+  border-radius: 6px;
+  color: #7A7A7A;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+form textarea::placeholder {
+  padding: 15px 0 0 10px;
+}
+
+form textarea:focus {
+  outline: none;
+  background-color: #d5d5d5;
+}
+
+form .btn--primary {
+  border: none;
+  height: 64px;
+  color: #fff;
+  background: #FF5A00;
+  border-radius: 6px;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
