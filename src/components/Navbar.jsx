@@ -12,7 +12,6 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <NavLink to="/">HOME</NavLink>
-        <NavLink to="/about">ABOUT US</NavLink>
         <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/contact">CONTACT US</NavLink>
         <button>
