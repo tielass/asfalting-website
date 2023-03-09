@@ -1,7 +1,8 @@
-/* Banner */
+/* homePage */
 
-.banner > img {
-  width: 100vw;
+
+.bannerImage {
+  width: 100%;
 }
 
 /* About Us */
@@ -23,8 +24,7 @@
 }
 
 .topImg {
-  width: 574px;
-  height: 400px;
+  object-fit: cover;
 }
 
 .bottomSide {
@@ -49,10 +49,6 @@
   padding: 25px;
 }
 
-.projects img {
-  width: 1125px;
-}
-
 .projectsTitle {
   font-weight: 300;
   color: #FF5A00;
@@ -62,14 +58,17 @@
   /* color: #fff; */
   width: 250px;
   position: absolute;
-  right: 320px;
-  top: 2212px;
+  right: 15%;
+  top: 33%;
   color: #fff;
 }
 
 .projectsImage {
   position: relative;
 }
+
+/* ProjectsInfo */
+
 
 .projectsInfo h1{
   font-weight: 400;
@@ -102,4 +101,12 @@
 
 .infoBox {
   padding-bottom: 25px;
+}
+
+
+.projects--container {
+  position: relative;
+  width: min-content;
+  margin: 0 auto;
+  max-width: 60%;
 }

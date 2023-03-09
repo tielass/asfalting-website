@@ -1,13 +1,67 @@
+/* Projects header */
+
 .projectsHeader {
   margin: auto;
-  width: 635px;
+}
+
+/* Showcase */
+
+.showcase {
+  min-height: 200px;
+  background: url('../images/projects-banner.png') no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-around;
-  padding: 65px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase h1, p {
+  max-width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.showcase h1 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .thin {
   font-weight: 300;
+}
+
+/* City Filters */
+
+.filter--list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.filter--list--item {
+  margin-right: 2rem;
+}
+
+.filter--list--item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter--list--item button:hover {
+  font-weight: 600;
+  color: #FF7326;
+}
+
+.filter--list--item button::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }

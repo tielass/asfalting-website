@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div className='banner'>
-      <img src={ Banner } alt="bannerImage" />
+    <div className='homepageContainer'>
+      <img src={ Banner } alt="bannerImage" className='bannerImage' />
       {/* About Us */}
       <div className="aboutUs">
         <div className="topSide">
@@ -31,15 +31,17 @@ function Home() {
       {/* Projects */}
       <div className="projects">
         <h1>OUR <span className='projectsTitle'>PROJECTS</span></h1>
-        <div className='projectsImage'>
-          <img src={ Projects } alt="projects" />
-        </div>
-        <div className="projectsInfo">
-          <div className='infoBox'>
-          <h1>PROJECTS</h1>
-          <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicat</p>
+        <div className="projects--container">
+          <div className='projectsImage'>
+            <img src={ Projects } alt="projects" />
           </div>
-          <Link to="/projects">EXPLORE</Link>
+          <div className="projectsInfo">
+            <div className='infoBox'>
+              <h1>PROJECTS</h1>
+              <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicat</p>
+            </div>
+            <Link to="/projects">EXPLORE</Link>
+          </div>
         </div>
       </div>
     </div>
