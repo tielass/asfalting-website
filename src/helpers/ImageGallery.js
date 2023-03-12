@@ -4,11 +4,11 @@ import thirdGalleryImage from '../galleryImages/GalleryImage3.png'
 import fourthGalleryImage from '../galleryImages/GalleryImage4.png'
 
 export const galleryImages = [
-  { title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage },
-  { title:"Sofia",  subtitle: "Parking lot in Pernik", img: secondGalleryImage },
-  { title:"Breznik",  subtitle: "Parking lot in Pernik", img: thirdGalleryImage },
-  { title:"Batanovtsi",  subtitle: "Parking lot in Pernik", img: secondGalleryImage },
-  { title:"Vitanovtsi",  subtitle: "Parking lot in Pernik", img: firstGalleryImage },
-  { title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage }
+  { id:1, title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage },
+  { id:2, title:"Sofia",  subtitle: "Parking lot in Pernik", img: secondGalleryImage },
+  { id:3, title:"Breznik",  subtitle: "Parking lot in Pernik", img: thirdGalleryImage },
+  { id:4, title:"Batanovtsi",  subtitle: "Parking lot in Pernik", img: secondGalleryImage },
+  { id:5, title:"Vitanovtsi",  subtitle: "Parking lot in Pernik", img: firstGalleryImage },
+  { id:6, title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage },
+  { id:7, title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage }
 ]
-

@@ -1,17 +1,16 @@
 import React from 'react'
+import GalleryCard from './GalleryCard';
 import { galleryImages } from "../helpers/ImageGallery";
+import '../style/GalleryCards.css'
 
 function GalleryCards() {
   return (
-    <div>
-      <div>
-        { galleryImages.map( image =>
-        <img src= { image.img} alt="" />
-        )}
-        { galleryImages.map( image =>
-        <p>{image.title}</p>
-        )}
-      </div>
+    <div className='gallery--grid'>
+        { galleryImages.map((image) => {
+          return (
+            <GalleryCard key={image.id} title={image.title} img={image.img} />
+          );
+        }) }
     </div>
   )
 }

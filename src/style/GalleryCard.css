@@ -1,0 +1,11 @@
+.gallery--card--link {
+  text-decoration: none;
+}
+
+.gallery--card--text {
+  color: black;
+}
+
+.gallery--card--img {
+  width: 90%;
+}

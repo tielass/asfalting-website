@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { galleryImages } from "../helpers/ImageGallery";
+import '../style/GalleryCard.css'
 
-function GalleryCard(props) {
+function GalleryCard({title, img}) {
   return (
-    <Link>
-      <div className='gallery--card--wrapper'>
-        <img className='gallery--card--img' src="" alt="" />
-        <p className='gallery--card--text'></p>
+    <Link className='gallery--card--link'>
+      <div className='gallery--card--wrapper' >
+        <img className='gallery--card--img' src= { img} alt="" />
+        <p className='gallery--card--text' >{ title }</p>
       </div>
     </Link>
   )

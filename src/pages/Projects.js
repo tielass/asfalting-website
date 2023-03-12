@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
+import GalleryCard from '../components/GalleryCard'
 import GalleryCards from '../components/GalleryCards'
 import '../style/Projects.css'
 
