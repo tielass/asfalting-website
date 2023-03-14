@@ -1,7 +1,8 @@
-/* Projects header */
+/* Projects main container */
 
-.projectsHeader {
-  margin: auto;
+.projects--container--main {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Showcase */
@@ -34,6 +35,10 @@
 
 /* City Filters */
 
+.filter--city--box{
+  margin: 2rem auto;
+}
+
 .filter--list {
   display: flex;
   justify-content: center;
@@ -42,7 +47,7 @@
 }
 
 .filter--list--item {
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .filter--list--item button {

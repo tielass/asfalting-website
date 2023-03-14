@@ -5,7 +5,7 @@ import '../style/Projects.css'
 
 function Projects() {
   return (
-    <div>
+    <div className='projects--container--main'>
       <section className='projectsHeader'>
         <div className="showcase">
           <h1>Gallery of our<span className='thin'> projects</span></h1>
