@@ -17,14 +17,14 @@ function Home() {
           <img src={ Whoarewe } alt="asfaltingAbout" className='topImg'/>
           <div className='textBox'>
             <h1>WHO ARE WE?</h1>
-            <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicated to enhancing the road construction industry in Australia by providing the highest quality products and services, adopting proven new technologies and approaches and working in partnership with customers to deliver superior solutions. Our work practices are underpinned with a culture of safety, environmental responsibility and accountability fostering an environment of growth and respect amongst our employees and for the communities that surround us.</p>
+            <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicated to enhancing the road construction industry in Australia by providing the highest quality products and services.</p>
           </div>
         </div>
         <div className="bottomSide">
           <img src={ Whatwedo } alt="asfaltingAbout" className='topImg'/>
           <div className='textBox'>
             <h1>WHAT WE DO?</h1>
-            <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicated to enhancing the road construction industry in Australia by providing the highest quality products and services, adopting proven new technologies and approaches and working in partnership with customers to deliver superior solutions. Our work practices are underpinned with a culture of safety, environmental responsibility and accountability fostering an environment of growth and respect amongst our employees and for the communities that surround us.</p>
+            <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicated to enhancing the road construction industry in Australia by providing the highest quality products and services.</p>
           </div>
         </div>
       </div>

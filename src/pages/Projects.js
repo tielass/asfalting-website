@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import Carousel from '../components/Carousel'
 import GalleryCard from '../components/GalleryCard'
 import TagButton from '../components/TagButton'
 import { galleryImages } from '../helpers/ImageGallery'
@@ -22,11 +21,11 @@ function Projects() {
     <div className='projects--container--main'>
       <section className='projectsHeader'>
         <div className="showcase">
-          <h1>Gallery of our<span className='thin'> projects</span></h1>
-          <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry.</p>
+          <h1 className='showcase--heading'>Gallery of our<span className='thin'> projects</span></h1>
+          <p className='showcase--text'>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry.</p>
         </div>
       </section>
-      <div className="filter--city--box" handleSetTag={ setTag }>
+      <div className="filter--city--box" >
         <ul className="filter--list">
           <li className="filter--list--item">
             <TagButton name='All' handleSetTag={ setTag }/>
@@ -51,10 +50,8 @@ function Projects() {
             <GalleryCard key={image.id} title={image.title} img={image.img} />
           );
         }) }
-    </div>
-      <Carousel />
+      </div>
     </div>
   )
 }
-
 export default Projects

@@ -5,11 +5,13 @@ import Home from "./pages/Home"
 import Project from "./pages/Projects"
 import Contact from "./pages/Contact"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />} />

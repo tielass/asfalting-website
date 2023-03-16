@@ -18,7 +18,7 @@
   justify-content: center;
 }
 
-.showcase h1, p {
+.showcase--heading, .showcase--text {
   max-width: 50%;
   margin: 0;
   padding: 0;
