@@ -1,18 +1,22 @@
 import React, {useState, useEffect} from 'react'
 import Carousel from '../components/Carousel'
-import GalleryCards from '../components/GalleryCards'
+import GalleryCard from '../components/GalleryCard'
 import TagButton from '../components/TagButton'
 import { galleryImages } from '../helpers/ImageGallery'
 import '../style/Projects.css'
+import '../style/GalleryCards.css'
 
 function Projects() {
 
-  const [tag, setTag] = useState('all')
+  const [tag, setTag] = useState('All')
   const [filteredImages, setFilteredImages] = useState([])
 
-  useEffect(() => {
-    tag === 'all' ? setFilteredImages(galleryImages) : setFilteredImages( galleryImages.filter( image => image.tag === tag ))
-  }, [tag])
+  useEffect(
+    () => {
+      tag === 'All' ? setFilteredImages(galleryImages) : setFilteredImages( galleryImages.filter( image => image.tag === tag ))
+    },
+    [tag]
+  )
 
   return (
     <div className='projects--container--main'>
@@ -22,7 +26,7 @@ function Projects() {
           <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry.</p>
         </div>
       </section>
-      <div className="filter--city--box">
+      <div className="filter--city--box" handleSetTag={ setTag }>
         <ul className="filter--list">
           <li className="filter--list--item">
             <TagButton name='All' handleSetTag={ setTag }/>
@@ -41,7 +45,13 @@ function Projects() {
           </li>
         </ul>
       </div>
-      <GalleryCards />
+      <div className='gallery--grid'>
+        { filteredImages.map((image) => {
+          return (
+            <GalleryCard key={image.id} title={image.title} img={image.img} />
+          );
+        }) }
+    </div>
       <Carousel />
     </div>
   )
