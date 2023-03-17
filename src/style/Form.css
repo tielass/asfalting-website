@@ -76,6 +76,8 @@ form textarea:focus {
   background-color: #d5d5d5;
 }
 
+/* Form Submit Button */
+
 form .btn--primary {
   border: none;
   height: 64px;
@@ -85,4 +87,8 @@ form .btn--primary {
   font-size: 20px;
   letter-spacing: 0.2em;
   cursor: pointer;
+}
+
+.btn--primary:hover {
+  background-color: #df4e00;
 }

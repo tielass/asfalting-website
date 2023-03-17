@@ -55,18 +55,10 @@
   border: none;
   cursor: pointer;
   font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 500;
 }
 
 .filter--list--item button:hover {
-  font-weight: 600;
   color: #FF7326;
-}
-
-.filter--list--item button::after {
-    display: block;
-    content: attr(title);
-    font-weight: bold;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
 }

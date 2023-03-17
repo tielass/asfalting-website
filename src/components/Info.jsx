@@ -15,19 +15,19 @@ function Info() {
         </div>
         <div className="info--row">
           <MailOutlineIcon />
-          <p>asfalting@gmail.com</p>
+          <p className='info--paragraph'>asfalting@gmail.com</p>
         </div>
         <div className="info--row">
           <LocalPhoneOutlinedIcon />
-          <p>(+359) 0886 738 218</p>
+          <p className='info--paragraph'>(+359) 0886 738 218</p>
         </div>
         <div className="info--row">
           <LocationOnOutlinedIcon />
-          <p>Panayot Hitov 9, Pernik Bulgaria</p>
+          <p className='info--paragraph'>Panayot Hitov 9, Pernik Bulgaria</p>
         </div>
         <div className="info--row">
           <AccessTimeOutlinedIcon />
-          <p>09:00 - 18:00</p>
+          <p className='info--paragraph'>09:00 - 18:00</p>
         </div>
       </div>
     </div>

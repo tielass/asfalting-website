@@ -4,6 +4,7 @@
 
 .gallery--card--text {
   color: black;
+  font-weight: 500;
 }
 
 .gallery--image--container{
@@ -18,5 +19,5 @@
   object-fit:cover;}
 
 .gallery--card--img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
