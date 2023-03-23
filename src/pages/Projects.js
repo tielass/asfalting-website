@@ -28,19 +28,19 @@ function Projects() {
       <div className="filter--city--box" >
         <ul className="filter--list">
           <li className="filter--list--item">
-            <TagButton name='All' handleSetTag={ setTag }/>
+            <TagButton name='All' tagActive={tag === 'All' ? true : false} handleSetTag={ setTag }/>
           </li>
           <li className="filter--list--item">
-            <TagButton name='Sofia' handleSetTag={ setTag }/>
+            <TagButton name='Sofia' tagActive={tag === 'Sofia' ? true : false} handleSetTag={ setTag }/>
           </li>
           <li className="filter--list--item">
-            <TagButton name='Pernik' handleSetTag={ setTag }/>
+            <TagButton name='Pernik' tagActive={tag === 'Pernik' ? true : false} handleSetTag={ setTag }/>
           </li>
           <li className="filter--list--item">
-            <TagButton name='Breznik' handleSetTag={ setTag }/>
+            <TagButton name='Breznik' tagActive={tag === 'Breznik' ? true : false} handleSetTag={ setTag }/>
           </li>
           <li className="filter--list--item">
-            <TagButton name='Batanovtsi' handleSetTag={ setTag }/>
+            <TagButton name='Batanovtsi' tagActive={tag === 'Batanovtsi' ? true : false} handleSetTag={ setTag }/>
           </li>
         </ul>
       </div>

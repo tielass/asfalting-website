@@ -62,3 +62,7 @@
 .filter--list--item button:hover {
   color: #FF7326;
 }
+
+.active {
+  color: #FF7326;
+}

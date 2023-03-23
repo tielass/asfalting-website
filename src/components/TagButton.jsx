@@ -1,8 +1,8 @@
 import React from 'react'
 
-function TagButton({name, handleSetTag}) {
+function TagButton({name, handleSetTag, tagActive}) {
   return (
-    <button onClick={() => handleSetTag(name)}>
+    <button className={`tag ${tagActive ? 'active' : null}`} onClick={() => handleSetTag(name)}>
       {name}
     </button>
   )
