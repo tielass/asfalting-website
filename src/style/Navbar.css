@@ -73,6 +73,9 @@
   font-weight: bold;
 }
 
+.navbar .logoLink:hover {
+  pointer-events: none;
+}
 
 /* .navbar a.active:hover{
   content: '';

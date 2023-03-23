@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo.png'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 import '../style/Navbar.css'
 
@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className="leftSide">
-        <img src={ Logo } alt="Logo" />
+        <Link className='logoLink' to="/">
+          <img src={ Logo } alt="Logo" />
+        </Link>
       </div>
       <div className="rightSide">
         <NavLink to="/">HOME</NavLink>

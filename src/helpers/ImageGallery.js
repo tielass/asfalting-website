@@ -11,5 +11,7 @@ export const galleryImages = [
   { id:5, title:"Vitanovtsi",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Vitanovtsi" },
   { id:6, title:"Sofia",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Sofia" },
   { id:7, title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Kovachevtsi" },
-  { id:8, title:"Batanovtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Batanovtsi" }
+  { id:8, title:"Batanovtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Batanovtsi" },
+  { id:9, title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" },
+  { id:10, title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" }
 ]
