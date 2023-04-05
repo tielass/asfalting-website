@@ -3,6 +3,8 @@ import Logo from '../assets/logo.png'
 import { NavLink, Link } from 'react-router-dom'
 import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 import '../style/Navbar.css'
+import ReactSwitch from 'react-switch';
+
 
 function Navbar() {
   return (
@@ -19,6 +21,9 @@ function Navbar() {
         <button>
           <ReorderOutlinedIcon />
         </button>
+        <div className="switch">
+          <ReactSwitch />
+        </div>
       </div>
     </div>
   )
