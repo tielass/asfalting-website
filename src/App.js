@@ -6,9 +6,9 @@ import Project from "./pages/Projects"
 import Contact from "./pages/Contact"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import { createContext, useState } from 'react'
+import { ThemeContext } from './components/ThemeContext';
+import { useState } from 'react'
 
-export const ThemeContext = createContext(null)
 
 function App() {
 
@@ -19,8 +19,8 @@ function App() {
   }
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
-      <div className="App" id={theme}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="App" id={ theme }>
         <Router>
           <ScrollToTop />
           <Navbar />
