@@ -77,11 +77,26 @@
   pointer-events: none;
 }
 
-/* Switch */
+/* DarkMode */
 
-/* .navbar a.active:hover{
+#dark .navbar {
+  background-color: #191919;
+}
+
+#dark a{
+  color: #FF5A00;
+}
+
+#dark .navbar a:after {
   content: '';
+  background-color: #FF5A00;
+}
+
+/* #dark .navbar .leftSide img {
+  color: #fff;
 } */
+
+
 
 /* Media Queries */
 

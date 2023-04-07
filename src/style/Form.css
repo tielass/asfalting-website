@@ -92,3 +92,18 @@ form .btn--primary {
 .btn--primary:hover {
   background-color: #df4e00;
 }
+
+
+/* Dark Theme */
+
+#dark .form-wrapper {
+  background: #c0c0c0;
+}
+
+#dark .form--input {
+  background: #afafaf;
+}
+
+#dark textarea {
+  background: #afafaf;
+}

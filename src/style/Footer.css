@@ -35,3 +35,13 @@
 .reserved {
   color: #FF5A00;
 }
+
+/* Dark Theme */
+
+#dark .footer {
+  background-color: #191919;
+}
+
+#dark .copyright {
+  color: #fff;
+}

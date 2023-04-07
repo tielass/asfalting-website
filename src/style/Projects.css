@@ -66,3 +66,25 @@
 .active {
   color: #FF7326;
 }
+
+/* Dark Theme */
+
+#dark .showcase--heading {
+  color: #fff;
+}
+
+#dark .showcase--text {
+  color: #fff;
+}
+
+#dark .filter--list--item button{
+  color: #fff;
+}
+
+#dark .filter--list--item .active {
+  color: #FF7326;
+}
+
+#dark .gallery--card--text {
+  color: #fff;
+}

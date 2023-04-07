@@ -109,3 +109,17 @@
   width: min-content;
   margin: 0 auto;
 }
+
+/* Dark Theme */
+
+#dark .textBox h1 {
+  color: #fff;
+}
+
+#dark .textBox p {
+  color: #fff;
+}
+
+#dark .our {
+  color: #fff;
+}

@@ -10,7 +10,7 @@ function Footer() {
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
       </div>
-      <p>Copyright &copy; 2023</p>
+      <p className='copyright'>Copyright &copy; 2023</p>
       <p className='reserved'>All rights reserved</p>
     </div>
   )

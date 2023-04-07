@@ -30,7 +30,7 @@ function Home() {
       </div>
       {/* Projects */}
       <div className="projects">
-        <h1>OUR <span className='projectsTitle'>PROJECTS</span></h1>
+        <h1> <span className='our'> OUR </span><span className='projectsTitle'>PROJECTS</span></h1>
         <div className="projects--container">
           <div className='projectsImage'>
             <img src={ Projects } alt="projects" />
