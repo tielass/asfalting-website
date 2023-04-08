@@ -2,9 +2,9 @@ import Logo from '../assets/logo.png'
 import { NavLink, Link } from 'react-router-dom'
 import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 import '../style/Navbar.css'
-import ReactSwitch from 'react-switch';
 import { useContext } from 'react'
 import { ThemeContext } from './ThemeContext';
+import Switch from '@mui/material/Switch';
 
 
 function Navbar() {
@@ -22,7 +22,11 @@ function Navbar() {
         <NavLink to="/">HOME</NavLink>
         <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/contact">CONTACT US</NavLink>
-        <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
+        <Switch
+        checked={ theme === "dark" }
+        onChange={ toggleTheme }
+        color="warning"
+        />
         <button>
           <ReorderOutlinedIcon />
         </button>
