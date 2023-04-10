@@ -107,3 +107,11 @@ form .btn--primary {
 #dark textarea {
   background: #afafaf;
 }
+
+#dark .form--header {
+  color: #000;
+}
+
+#dark .form--text {
+  color: #000;
+}
