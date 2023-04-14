@@ -40,7 +40,7 @@ function Home() {
               <h1>PROJECTS</h1>
               <p>Stanley Roads is a Queensland based company with a company heritage of over 50 years experience and expertise in the road construction industry. Dedicat</p>
             </div>
-            <Link to="/projects">EXPLORE</Link>
+            <Link className='projectsLink' to="/projects">EXPLORE</Link>
           </div>
         </div>
       </div>

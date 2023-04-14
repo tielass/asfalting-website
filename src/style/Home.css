@@ -123,3 +123,7 @@
 #dark .our {
   color: #fff;
 }
+
+#dark .projectsLink:hover{
+  color: #fff;
+}

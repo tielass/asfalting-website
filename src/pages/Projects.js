@@ -4,6 +4,7 @@ import TagButton from '../components/TagButton'
 import { galleryImages } from '../helpers/ImageGallery'
 import '../style/Projects.css'
 import '../style/GalleryCards.css'
+import { Link } from 'react-router-dom'
 
 function Projects() {
 
@@ -47,7 +48,9 @@ function Projects() {
       <div className='gallery--grid'>
         { filteredImages.map((image) => {
           return (
-            <GalleryCard key={image.id} title={image.title} img={image.img} />
+            <Link className='gallery--card--link' to={`/projects/${image.id}`}>
+              <GalleryCard key={image.id} title={image.title} img={image.img} />
+            </Link>
           );
         }) }
       </div>
