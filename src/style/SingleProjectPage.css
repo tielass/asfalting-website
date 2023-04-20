@@ -1,0 +1,34 @@
+.single--page--wrapper {
+  margin: 50px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.single--page--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.single--page--link a{
+  text-decoration: none;
+}
+
+.svg {
+  color: #000;
+}
+
+/*  Dark Theme */
+
+#dark .single--page--title {
+  color: #fff;
+}
+
+#dark .project--description {
+  color: #fff;
+}
+
+#dark .svg {
+  color: #fff;
+}

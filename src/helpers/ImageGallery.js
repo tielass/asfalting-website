@@ -4,14 +4,14 @@ import thirdGalleryImage from '../galleryImages/GalleryImage3.png'
 import fourthGalleryImage from '../galleryImages/GalleryImage4.png'
 
 export const galleryImages = [
-  { id:1, title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" },
-  { id:2, title:"Sofia",  subtitle: "Parking lot in Pernik", img: secondGalleryImage, tag: "Sofia" },
-  { id:3, title:"Breznik",  subtitle: "Parking lot in Pernik", img: thirdGalleryImage, tag: "Breznik" },
-  { id:4, title:"Sofia",  subtitle: "Parking lot in Pernik", img: secondGalleryImage, tag: "Sofia" },
-  { id:5, title:"Vitanovtsi",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Vitanovtsi" },
-  { id:6, title:"Sofia",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Sofia" },
-  { id:7, title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Kovachevtsi" },
-  { id:8, title:"Batanovtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Batanovtsi" },
-  { id:9, title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" },
-  { id:10, title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" }
+  { id:"1", title:"Pernik",  subtitle: "Parking lot in Pernik", img: [firstGalleryImage, secondGalleryImage, firstGalleryImage, firstGalleryImage], tag: "Pernik", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quaerat!" },
+  { id:"2", title:"Sofia",  subtitle: "Parking lot in Pernik", img: [thirdGalleryImage, secondGalleryImage], tag: "Sofia" },
+  { id:"3", title:"Breznik",  subtitle: "Parking lot in Pernik", img: [fourthGalleryImage, thirdGalleryImage], tag: "Breznik" },
+  { id:"4", title:"Sofia",  subtitle: "Parking lot in Pernik", img: [fourthGalleryImage, secondGalleryImage], tag: "Sofia" },
+  // { id:"5", title:"Vitanovtsi",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Vitanovtsi" },
+  // { id:"6", title:"Sofia",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Sofia" },
+  // { id:"7", title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Kovachevtsi" },
+  // { id:"8", title:"Batanovtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Batanovtsi" },
+  // { id:"9", title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" },
+  // { id:"10", title:"Pernik",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Pernik" }
 ]

@@ -45,3 +45,7 @@
 #dark .copyright {
   color: #fff;
 }
+
+#dark .footerLinks a:hover{
+  color: #fff;
+}

@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { ThemeContext } from './components/ThemeContext';
 import { useState } from 'react'
+import SingleProjectPage from './components/SingleProjectPage'
+
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
             <Route path='/' exact element={<Home />} />
             <Route path='/projects' exact element={<Project />} />
             <Route path='/contact' exact element={<Contact />} />
+            <Route path="/projects/:id" exact element = { <SingleProjectPage /> } />
           </Routes>
           <Footer />
         </Router>
