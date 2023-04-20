@@ -3,6 +3,7 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  max-width: 80%;
 }
 
 .single--page--grid {
@@ -11,18 +12,36 @@
   gap: 20px;
 }
 
+.single--page--header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.single--page--title {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+
 .single--page--link a{
   text-decoration: none;
 }
 
 .svg {
-  color: #000;
+  scale: 2;
+  color: #FF7326;
+}
+
+.svg:hover {
+  color: #ff945a;
 }
 
 /*  Dark Theme */
 
 #dark .single--page--title {
-  color: #fff;
+  color: #FF7326;
 }
 
 #dark .project--description {
@@ -31,4 +50,8 @@
 
 #dark .svg {
   color: #fff;
+}
+
+#dark .svg:hover {
+  color: #b7b7b7;
 }

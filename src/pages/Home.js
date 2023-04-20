@@ -1,9 +1,8 @@
 import React from 'react'
-import Banner from '../assets/banner.png'
+import Banner from '../assets/banner-min.png'
 import Whoarewe from '../assets/whoarewe02.png'
 import Whatwedo from '../assets/whoarewe01.png'
 import Projects from '../assets/projects02.png'
-// import Rectangle from '../assets/rectangle.png'
 import '../style/Home.css'
 import { Link } from 'react-router-dom'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { galleryImages } from '../helpers/ImageGallery'
-import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
+import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 import "../style/SingleProjectPage.css"
 
 function SingleProjectPage() {
@@ -11,11 +11,13 @@ function SingleProjectPage() {
 
   return (
     <div className='single--page--wrapper'>
-      <Link className='single--page--link' to='/projects'>
-        <ArrowBackIosNewOutlinedIcon className='svg'/>
-      </Link>
       <div className="single--page--container">
-        <h2 className='single--page--title'>{ image.title }</h2>
+        <div className="single--page--header">
+          <Link className='single--page--link' to='/projects'>
+            <ArrowCircleLeftOutlinedIcon className='svg'/>
+          </Link>
+          <h2 className='single--page--title'>{ image.title }</h2>
+        </div>
         <p className='project--description'>{image.description}</p>
         <div className='single--page--grid'>
           {image.img.map((imgSrc, index) => (

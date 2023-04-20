@@ -4,10 +4,10 @@ import thirdGalleryImage from '../galleryImages/GalleryImage3.png'
 import fourthGalleryImage from '../galleryImages/GalleryImage4.png'
 
 export const galleryImages = [
-  { id:"1", title:"Pernik",  subtitle: "Parking lot in Pernik", img: [firstGalleryImage, secondGalleryImage, firstGalleryImage, firstGalleryImage], tag: "Pernik", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quaerat!" },
-  { id:"2", title:"Sofia",  subtitle: "Parking lot in Pernik", img: [thirdGalleryImage, secondGalleryImage], tag: "Sofia" },
-  { id:"3", title:"Breznik",  subtitle: "Parking lot in Pernik", img: [fourthGalleryImage, thirdGalleryImage], tag: "Breznik" },
-  { id:"4", title:"Sofia",  subtitle: "Parking lot in Pernik", img: [fourthGalleryImage, secondGalleryImage], tag: "Sofia" },
+  { id:"1", title:"Ruse Street 24",  subtitle: "Parking lot in Pernik", img: [firstGalleryImage, secondGalleryImage, firstGalleryImage, firstGalleryImage], tag: "Pernik", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quaerat! " },
+  { id:"2", title:"Boulevard Macedonia 3",  subtitle: "Parking lot in Pernik", img: [thirdGalleryImage, secondGalleryImage], tag: "Sofia", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quaerat! " },
+  { id:"3", title:"Radina Street 10",  subtitle: "Parking lot in Pernik", img: [fourthGalleryImage, thirdGalleryImage], tag: "Breznik", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quaerat! " },
+  { id:"4", title:"Alexandar Dondukov 54",  subtitle: "Parking lot in Pernik", img: [fourthGalleryImage, secondGalleryImage], tag: "Sofia", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quaerat! " },
   // { id:"5", title:"Vitanovtsi",  subtitle: "Parking lot in Pernik", img: firstGalleryImage, tag: "Vitanovtsi" },
   // { id:"6", title:"Sofia",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Sofia" },
   // { id:"7", title:"Kovachevtsi",  subtitle: "Parking lot in Pernik", img: fourthGalleryImage, tag: "Kovachevtsi" },

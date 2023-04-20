@@ -49,7 +49,7 @@ function Projects() {
         { filteredImages.map((image) => {
           return (
             <Link className='gallery--card--link' to={`/projects/${image.id}`}>
-              <GalleryCard key={image.id} title={image.title} img={image.img[0]} />
+              <GalleryCard key={image.id} tag={image.tag} title={image.title} img={image.img[0]} />
             </Link>
           );
         }) }
