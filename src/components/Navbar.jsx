@@ -1,6 +1,6 @@
 import Logo from '../assets/logo.png'
 import { NavLink, Link } from 'react-router-dom'
-import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
+// import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 import '../style/Navbar.css'
 import { useContext } from 'react'
 import { ThemeContext } from './ThemeContext';
@@ -27,9 +27,9 @@ function Navbar() {
         onChange={ toggleTheme }
         color="warning"
         />
-        <button>
+        {/* <button>
           <ReorderOutlinedIcon />
-        </button>
+        </button> */}
       </div>
     </div>
   )

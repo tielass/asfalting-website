@@ -26,11 +26,11 @@ body {
   background-color: #343434;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -48,11 +48,86 @@ body {
 }
 
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+  /* styles for screens up to 768px wide */
+
+  /* About Us */
+  .aboutUs {
+    padding: 16px 18px !important;
+  }
+
+  .topSide {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topImg {
+    width: 400px;
+  }
+
+  .bottomSide {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  /* Projects */
+
+  .projects--image {
+    width: 400px;
+  }
+
+  .projects--container{
+    position: unset;
+  }
+
+  .projectsInfo {
+    color: #000 !important;
+    width: 80% !important;
+    position: unset !important;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerLinks a{
+    padding: 0 5px;
+  }
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* styles for screens between 768px and 1024px wide */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* styles for screens between 768px and 1024px wide */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* styles for screens between 768px and 1024px wide */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* styles for screens between 768px and 1024px wide */
+}
+
+@media screen and (min-width: 1200px) {
+  /* styles for screens between 768px and 1024px wide */
 }

@@ -32,7 +32,7 @@ function Home() {
         <h1> <span className='our'> OUR </span><span className='projectsTitle'>PROJECTS</span></h1>
         <div className="projects--container">
           <div className='projectsImage'>
-            <img src={ Projects } alt="projects" />
+            <img src={ Projects } className='projects--image' alt="projects" />
           </div>
           <div className="projectsInfo">
             <div className='infoBox'>
