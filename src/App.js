@@ -6,7 +6,7 @@ import Project from "./pages/Projects"
 import Contact from "./pages/Contact"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import { ThemeContext } from './components/ThemeContext';
+import { ThemeContext } from './contexts/ThemeContext.jsx'
 import { useState } from 'react'
 import SingleProjectPage from './components/SingleProjectPage'
 

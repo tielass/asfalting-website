@@ -26,11 +26,11 @@ body {
   background-color: #343434;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-} */
+}
 
 .App-header {
   background-color: #282c34;
@@ -48,23 +48,23 @@ body {
 }
 
 
-/* @keyframes App-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 /* Media Queries */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   /* styles for screens up to 768px wide */
 
   /* About Us */
-  .aboutUs {
-    padding: 16px 18px !important;
+  .homepageContainer .aboutUs {
+    padding: 16px 18px;
   }
 
   .topSide {
@@ -76,8 +76,8 @@ body {
     width: 400px;
   }
 
-  .bottomSide {
-    flex-direction: column !important;
+  .homepageContainer .bottomSide {
+    flex-direction: column;
     align-items: center;
   }
 
@@ -91,11 +91,18 @@ body {
     position: unset;
   }
 
-  .projectsInfo {
-    color: #000 !important;
-    width: 80% !important;
-    position: unset !important;
+  .projects .projects--container .projectsInfo {
+    margin-top: 10px;
+    color: #000;
+    width: 80%;
+    position: unset;
     margin: 0 auto;
+  }
+
+  /* Dark Theme Projects */
+
+  #dark .projects .projects--container .projectsInfo {
+    color: #fff;
   }
 
   /* Footer */
@@ -114,6 +121,59 @@ body {
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   /* styles for screens between 768px and 1024px wide */
+  /* About Us */
+  .homepageContainer .aboutUs {
+    padding: 16px 18px;
+  }
+
+  .topSide {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topImg {
+    width: 400px;
+  }
+
+  .homepageContainer .bottomSide {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Projects */
+
+  .projects--image {
+    width: 400px;
+  }
+
+  .projects--container{
+    position: unset;
+  }
+
+  .projects .projects--container .projectsInfo {
+    margin-top: 10px;
+    color: #000;
+    width: 80%;
+    position: unset;
+    margin: 0 auto;
+  }
+
+  /* Dark Theme Projects */
+
+  #dark .projects .projects--container .projectsInfo {
+    color: #fff;
+  }
+
+  /* Footer */
+
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerLinks a{
+    padding: 0 5px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
