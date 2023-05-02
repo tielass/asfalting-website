@@ -5,7 +5,7 @@ import '../style/Contact.css'
 
 function Contact() {
   return (
-    <div>
+    <div className='contacts'>
       <div className='contacts--container'>
         <Form />
         <Info />
@@ -14,4 +14,4 @@ function Contact() {
   )
 }
 
-export default Contact 
+export default Contact
