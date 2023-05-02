@@ -73,7 +73,7 @@ body {
   }
 
   .topImg {
-    width: 400px;
+    width: 90%;
   }
 
   .homepageContainer .bottomSide {
@@ -84,7 +84,7 @@ body {
   /* Projects */
 
   .projects--image {
-    width: 400px;
+    width: 90%;
   }
 
   .projects--container{
