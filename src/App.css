@@ -164,6 +164,12 @@ body {
     font-size: 13px;
   }
 
+  /* Single Project Page */
+
+  .single--page--container .single--page--grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   /* Contacts */
 
   .contacts .contacts--container {
@@ -271,6 +277,12 @@ body {
   .gallery--card--wrapper .gallery--card--text {
     text-align: center;
     font-size: 13px;
+  }
+
+  /* Single Project Page */
+
+  .single--page--container .single--page--grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   /* Contacts */
@@ -388,6 +400,12 @@ body {
     font-size: 11px;
   }
 
+  /* Single Project Page */
+
+  .single--page--container .single--page--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   /* Contacts */
 
   .contacts .contacts--container {
@@ -470,6 +488,8 @@ body {
     position: unset;
     margin: 0 auto;
   }
+
+
 
   /* Dark Theme Projects */
 
