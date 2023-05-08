@@ -145,8 +145,9 @@ body {
 
   /* Filter bar */
 
-  .filter--city--box .filter--list {
-    flex-direction: column;
+
+  .filter--list .filter--list--item {
+    margin-right: 1rem;
   }
 
   .projects--container--main .filter--city--box {
@@ -155,11 +156,12 @@ body {
 
   .projects--container--main .gallery--grid {
     padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .gallery--card--wrapper .gallery--card--text {
     text-align: center;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   /* Contacts */
@@ -252,8 +254,9 @@ body {
 
   /* Filter bar */
 
-  .filter--city--box .filter--list {
-    flex-direction: column;
+
+  .filter--list .filter--list--item {
+    margin-right: 1rem;
   }
 
   .projects--container--main .filter--city--box {
@@ -262,11 +265,12 @@ body {
 
   .projects--container--main .gallery--grid {
     padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .gallery--card--wrapper .gallery--card--text {
     text-align: center;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   /* Contacts */
@@ -370,10 +374,6 @@ body {
   }
 
   /* Filter bar */
-
-  .filter--city--box .filter--list {
-    flex-direction: column;
-  }
 
   .projects--container--main .filter--city--box {
     margin: 0.4rem;
